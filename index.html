@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+    <div id="instructions"  >
+      <h3 style="font-size: 30px;">instructions<h3>
+      <ol style="font-size: 25px; margin: 10px;">
+        <li>Press any key to start</li>
+        <li>The game will start by flashing a color and playing a corresponding sound.</li>
+        <li>Click on the buttons in the same order as the sequence shown by the game.</li>
+        <li>If you correctly repeat the sequence, the game will add one more color to the sequence and move to the next level.</li>
+        <li>Keep repeating the sequence as it gets longer with each level.</li>
+        <li>If you click a wrong color, the game will display a "Game Over" message.</li>
+
+      </ol>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./index.js" charset="UTF-8"></script>
+</body>
+
+</html>
